@@ -1,0 +1,27 @@
+package mavensample;
+import org.openqa.selenium.*;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class SampleOne {
+
+
+	
+	  public static void main(String[] args) throws InterruptedException
+	    {
+		  
+	      System.setProperty("webdriver.chrome.driver","C:\\Users\\satyasm\\chromedriver_win32_updated\\chromedriver.exe");
+	      //WebDriverManager.chromedriver().setup();  
+		  WebDriver driver = new ChromeDriver();
+	        
+	        driver.get("https://www.google.com");
+	        driver.manage().window().maximize();
+	        
+	        WebElement element=driver.findElement(By.name("q"));
+	        element.sendKeys("chromedriver");
+	        element.submit();
+	        Thread.sleep(3000);        
+	        
+	        driver.quit();
+	        }
+	}
+

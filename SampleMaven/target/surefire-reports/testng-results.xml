@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="SampleSuite2" duration-ms="48067" started-at="2021-09-17T10:49:10 IST" finished-at="2021-09-17T10:49:58 IST">
+    <groups>
+    </groups>
+    <test name="SampleTest" duration-ms="24039" started-at="2021-09-17T10:49:10 IST" finished-at="2021-09-17T10:49:34 IST">
+      <class name="mavensample.CrossBrowserScripts">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:mavensample.CrossBrowserScripts@776802b0]" name="setup" is-config="true" duration-ms="6205" started-at="2021-09-17T10:49:10 IST" finished-at="2021-09-17T10:49:16 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="testParameterWithXML()[pri:0, instance:mavensample.CrossBrowserScripts@776802b0]" name="testParameterWithXML" duration-ms="17674" started-at="2021-09-17T10:49:16 IST" finished-at="2021-09-17T10:49:34 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testParameterWithXML -->
+      </class> <!-- mavensample.CrossBrowserScripts -->
+    </test> <!-- SampleTest -->
+    <test name="Sample2Test" duration-ms="23968" started-at="2021-09-17T10:49:34 IST" finished-at="2021-09-17T10:49:58 IST">
+      <class name="mavensample.CrossBrowserScripts">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:mavensample.CrossBrowserScripts@76c52298]" name="setup" is-config="true" duration-ms="7722" started-at="2021-09-17T10:49:34 IST" finished-at="2021-09-17T10:49:42 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="testParameterWithXML()[pri:0, instance:mavensample.CrossBrowserScripts@76c52298]" name="testParameterWithXML" duration-ms="16245" started-at="2021-09-17T10:49:42 IST" finished-at="2021-09-17T10:49:58 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testParameterWithXML -->
+      </class> <!-- mavensample.CrossBrowserScripts -->
+    </test> <!-- Sample2Test -->
+  </suite> <!-- SampleSuite2 -->
+</testng-results>
